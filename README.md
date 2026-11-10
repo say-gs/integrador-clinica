@@ -1,5 +1,5 @@
 # Clínica San Bernardito
-**Integrantes:** Verónica Soledad Gonzáles (Sole-Gonzales), Bautista Valentín Sayhueque Garcia Segovia (say-gs), Santiago Giustolisi ()
+**Integrantes:** Verónica Soledad Gonzáles (Sole-Gonzales), Bautista Valentín Sayhueque Garcia Segovia (say-gs), Santiago Giustolisi (SantiagoGiustolisi)
 
 **Tablero Kanban:** https://trello.com/b/SCooz2G8
 
