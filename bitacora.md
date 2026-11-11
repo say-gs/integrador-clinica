@@ -10,5 +10,5 @@
 - Quién hizo qué: Santiago Giustolisi, se encargó de la creación de las carpetas indicadas.
 - Qué nos trabó: Establecer que colocar en los archivos dentro de docs, en análisis, modelos de datos.
 - Qué sigue: Comenzar a crear carpeta /src donde se comenzara a desarrollar el código correspondiente al sistema, además se va a realizar un diagrama de clases, modelo de datos o bocetos dentro de la ya creada carpeta /src.
-- Captura del tablero: <img width="1425" height="663" alt="Trello-dia1" src="<img width="1030" height="482" alt="image" src="https://github.com/user-attachments/assets/521ee05d-b9f7-41f6-88a0-5a1625d9c7f6" />
+  - Captura del tablero: <img width="1425" height="663" alt="Trello-dia2" src="<img width="1000" height="456" alt="image" src="https://github.com/user-attachments/assets/d15b4310-0787-4650-bee1-501eee7a9329" />
 " />
