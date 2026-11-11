@@ -9,7 +9,8 @@ Para organizar el programa dividimos el proyecto en distintas clases según lo q
 * **PruebasClinica:** Clase aparte usada para ejecutar pruebas y verificar que todas las reglas de negocio funcionen bien.
 
 ## Diagrama de Clases
-![Diagrama de Clases UML](./diagrama_clases.png)
+<img width="1014" height="3008" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/6c29c090-963d-4abe-8254-db86db3c177b" />
+
 
 ## Elección de Colecciones (Java)
 Dentro de `SistemaClinica` elegimos estas estructuras de datos de `java.util` para resolver cada regla de la clínica:
