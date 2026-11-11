@@ -1,4 +1,4 @@
-<img width="1000" height="557" alt="image" src="https://github.com/user-attachments/assets/e4775d6f-3d8a-4793-b20a-b0b457168580" />## Día 1 (9/11/2026)
+## Día 1 (9/11/2026)
 - Qué hicimos: Hoy realizamos el tablón de Trello con el cronograma y todas las actividades pendientes, junto con 
 - Quién hizo qué: Verónica realizo el cronograma en Trello, mientras que Bautista y Santiago hicieron la parte del repositorio que incluye la bitácora y el archivo README
 - Qué nos trabó: La interfaz de Github.
