@@ -12,7 +12,7 @@
 - Qué sigue: Comenzar a crear carpeta /src donde se comenzara a desarrollar el código correspondiente al sistema, además se va a realizar un diagrama de clases, modelo de datos o bocetos dentro de la carpeta docs.
 - Captura del tablero: <img width="1000" height="557" alt="Trello-dia2" src="https://github.com/user-attachments/assets/1c58aacc-fce2-4213-9722-3dc7f24b3bca" />
 
-##Día 3 (11/11/2026)
+## Día 3 (11/11/2026)
 - Qué hicimos: Se realizo el diseño del sistema, el diagrama de clases y se creó la carpeta src con las clases Main, Paciente, Turno y SistemaClinica.
 - Quién hizo qué: Santiago se encargó de redactar el documento con el diseño del sistema, Verónica realizó el diagrama de clases y Bautista creó la carpeta src con sus clases.
 - Qué nos trabó: Nos costó un poco armar el diseño del sistema, pero pudimos hacerlo sin mucho problema.
