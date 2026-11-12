@@ -22,3 +22,5 @@
 - Qué nos trabó: Encontramos dificultades al importar el repositorio en Eclipse, corregir la extensión del archivo `Turno.java` y configurar la autenticación de GitHub para subir los cambios. Logramos resolver estos inconvenientes.
 
 - Qué sigue:Continuaremos con la integración de Queue<Turno> en la versión compartida de SistemaClinica.java, coordinaremos los cambios con los demás integrantes y prepararemos la Pull Request para incorporar el trabajo a la rama principal.
+ <img width="1207" height="586" alt="image" src="https://github.com/user-attachments/assets/5eb7eef2-b085-4471-9f75-5a199c4309b8" />
+ 
