@@ -26,4 +26,12 @@ public class Paciente {
     public int getEdad() {
         return this.edad;
     }
+
+    //toString para imprimir los datos en la consola
+    @Override
+    public String toString() {
+        return informacion  "[DNI: " + dni +
+                            " | Nombre: " + nombre +
+                            " | Edad: " + edad + "]"
+    }
 }
