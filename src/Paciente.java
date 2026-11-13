@@ -28,10 +28,12 @@ public class Paciente {
     }
 
     //toString para imprimir los datos en la consola
+
     @Override
     public String toString() {
-        return informacion  "[DNI: " + dni +
-                            " | Nombre: " + nombre +
-                            " | Edad: " + edad + "]"
-    }
+    return "Paciente [DNI: " + dni
+            + " | Nombre: " + nombre
+            + " | Edad: " + edad + "]";
+}
+
 }

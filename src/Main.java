@@ -13,9 +13,11 @@ public class Main {
         clinica.agregarTurnoUrgente("333", 3); // Luis también es crítico (empata con Ana, pero llegó después)
 
         // 3. Mostramos el orden en el que los llama el sistema
-        System.out.println("1° atendido: " + clinica.atenderUrgencia());
-        System.out.println("2° atendido: " + clinica.atenderUrgencia());
-        System.out.println("3° atendido: " + clinica.atenderUrgencia());
+
+        System.out.println("1° atendido: " + clinica.atenderSiguiente());
+        System.out.println("2° atendido: " + clinica.atenderSiguiente());
+        System.out.println("3° atendido: " + clinica.atenderSiguiente());
+
 
 
         // PRUEBA DE TURNOS NORMALES - QUEUE FIFO
@@ -32,6 +34,14 @@ public class Main {
         System.out.println("1° atendido: " + clinica.atenderTurnoNormal());
         System.out.println("2° atendido: " + clinica.atenderTurnoNormal());
         System.out.println("3° atendido: " + clinica.atenderTurnoNormal());
+
+        System.out.println("\n--- PRUEBA DE DESHACER ---");
+
+        clinica.agregarTurnoNormal("444");
+        clinica.deshacer();
+
+        System.out.println("Siguiente turno normal: "
+        + clinica.atenderTurnoNormal());
 
     } // Cierra el método main
 } // Cierra la clase Main
