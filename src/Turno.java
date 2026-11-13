@@ -1,3 +1,4 @@
+
 public class Turno {
 
     // Atributos privados según el diagrama UML
@@ -7,7 +8,8 @@ public class Turno {
     private boolean urgente;
 
     // Constructor
-    public Turno(Paciente paciente, int prioridad, long orden, boolean urgente) {
+    public Turno(Paciente paciente, int prioridad,
+                 long orden, boolean urgente) {
         this.paciente = paciente;
         this.prioridad = prioridad;
         this.orden = orden;
@@ -31,12 +33,15 @@ public class Turno {
         return this.urgente;
     }
 
-    // Método toString para imprimir los datos claros en consola
+    // Mostrar los datos del turno en consola
     @Override
     public String toString() {
-        return "Turno [Paciente=" + this.paciente.getNombre() + 
-               ", Prioridad=" + this.prioridad + 
-               ", Orden=" + this.orden + 
-               ", Urgente=" + this.urgente + "]";
+        String tipo = urgente ? "URGENTE" : "NORMAL";
+
+        return "Turno " + tipo
+                + " | " + paciente.getNombre()
+                + " | DNI: " + paciente.getDni()
+                + " | Prioridad: " + prioridad
+                + " | Orden: " + orden;
     }
 }

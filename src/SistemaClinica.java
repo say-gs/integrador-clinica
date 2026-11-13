@@ -15,8 +15,8 @@ public class SistemaClinica {
 
     // Mapa para recuperar los pacientes por DNI
     private Map<String, Paciente> pacientes = new HashMap<>();
-
-    // Cola para turnos normales
+    
+    // QUEUE: turnos normales en orden FIFO
     private Queue<Turno> turnosNormales = new ArrayDeque<>();
     
     // Comparator para ordenar las urgencias (prioridad alta primero, luego por orden de llegada)
@@ -77,6 +77,11 @@ public class SistemaClinica {
             return true;
     }
     
+    // Atender turnos normales respetando FIFO
+    public Turno atenderTurnoNormal() {
+        return turnosNormales.poll();
+    }
+
     // Agregar un turno a la cola de urgencias
     public boolean agregarTurnoUrgente(String dni, int prioridad) {
         Paciente p = pacientes.get(dni);
