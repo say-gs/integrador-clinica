@@ -24,5 +24,6 @@
 - Quién hizo qué: Santiago se encargó de completar la clase Turno, implementar el Comparator en SistemaClinica y ejecutar las pruebas desde Main.java.
 - Qué nos trabó: Configurar el entorno para ejecutar Java y corregir los archivos que no tenían la extensión .java asignada.
 - Qué sigue: Implementar la cola de turnos normales con Queue, el historial de deshacer con Stack y armar el menú interactivo de consola.
- - Captura del tablero: <img width="1228" height="712" alt="image" src="" />
+ - Captura del tablero: <<img width="1572" height="853" alt="image" src="https://github.com/user-attachments/assets/47565a51-5a84-471c-b1a6-bb69052fd7b3" />
+>
 
