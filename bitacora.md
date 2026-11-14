@@ -64,3 +64,13 @@
    
  - Captura del tablero: <img width="1224" height="655" alt="image" src="https://github.com/user-attachments/assets/77dca765-a60c-424e-b44e-5e55f446eaf2" />
 
+## Día 6 (14/11/2026)
+- Qué hicimos: Se implementó el menú interactivo de consola completo en la clase Main.java, conectando todas las opciones con los módulos de SistemaClinica y agregando validaciones de entrada para evitar errores al ingresar datos.
+  
+- Quién hizo qué: Santiago se encargó de programar la interfaz de consola en Main.java, validar el ingreso de datos por teclado (números, rangos de edad, prioridades y textos vacíos) y probar el flujo completo del sistema.
+  
+- Qué nos trabó: Asegurar que el programa no se detenga ante el ingreso de letras o valores fuera de rango en las opciones numéricas del menú.
+  
+- Qué sigue: Ejecutar las pruebas funcionales finales de punta a punta, corregir cualquier falla menor y preparar la documentación definitiva junto con la demostración del proyecto.
+  
+- Captura del tablero: <img width="1224" height="655" alt="image" src="" />
