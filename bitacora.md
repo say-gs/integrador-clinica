@@ -73,4 +73,5 @@
   
 - Qué sigue: Ejecutar las pruebas funcionales finales de punta a punta, corregir cualquier falla menor y preparar la documentación definitiva junto con la demostración del proyecto.
   
-- Captura del tablero: <img width="1224" height="655" alt="image" src="" />
+- Captura del tablero: <img width="1572" height="853" alt="image" src="https://github.com/user-attachments/assets/99bd350f-655b-487a-84a4-7f9319e05f99" />
+
