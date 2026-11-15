@@ -6,10 +6,68 @@ Para organizar el programa dividimos el proyecto en distintas clases según lo q
 * **Turno:** Representa cada turno médico. Guarda el `paciente` al que pertenece, su nivel de `prioridad`, el `orden` de llegada y si es `urgente` o no, junto con sus *getters* y `toString()`.
 * **SistemaClinica:** Es el motor principal del proyecto. Registra pacientes, administra los turnos normales y urgentes, atiende al siguiente en espera, muestra los listados y permite deshacer la última acción.
 * **Main:** Es la clase principal que muestra el menú por consola para interactuar con el sistema.
-* **PruebasClinica:** Clase aparte usada para ejecutar pruebas y verificar que todas las reglas de negocio funcionen bien.
+
 
 ## Diagrama de Clases
-<img width="1014" height="3008" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/6c29c090-963d-4abe-8254-db86db3c177b" />
+
+```mermaid
+classDiagram
+    direction TB
+
+    class Paciente {
+        -String dni
+        -String nombre
+        -int edad
+        +Paciente(String dni, String nombre, int edad)
+        +getDni() String
+        +getNombre() String
+        +getEdad() int
+        +toString() String
+    }
+
+    class Turno {
+        -Paciente paciente
+        -int prioridad
+        -long orden
+        -boolean urgente
+        +Turno(Paciente paciente, int prioridad, long orden, boolean urgente)
+        +getPaciente() Paciente
+        +getPrioridad() int
+        +getOrden() long
+        +isUrgente() boolean
+        +toString() String
+    }
+
+    class SistemaClinica {
+        -Set~String~ dnis
+        -Map~String, Paciente~ pacientes
+        -Queue~Turno~ turnosNormales
+        -Comparator~Turno~ comparadorUrgencias
+        -Stack~Runnable~ historial
+        -PriorityQueue~Turno~ turnosUrgentes
+        -long contadorOrden
+        +registrarPaciente(String dni, String nombre, int edad) boolean
+        +agregarTurnoNormal(String dni) boolean
+        +atenderTurnoNormal() Turno
+        +agregarTurnoUrgente(String dni, int prioridad) boolean
+        +atenderSiguiente() Turno
+        +deshacer() void
+    }
+
+    class Main {
+        +main(String[] args) void
+        -mostrarMenu() void
+        -leerTextoNoVacio(Scanner scanner, String mensaje) String
+        -leerEntero(Scanner scanner, String mensaje) int
+        -leerEnteroPositivo(Scanner scanner, String mensaje) int
+        -leerPrioridad(Scanner scanner) int
+    }
+
+    Main ..> SistemaClinica : utiliza
+    SistemaClinica --> Paciente : administra
+    SistemaClinica --> Turno : administra
+    Turno --> Paciente : referencia
+```
 
 
 ## Elección de Colecciones (Java)
@@ -17,6 +75,6 @@ Dentro de `SistemaClinica` elegimos estas estructuras de datos de `java.util` pa
 
 * **`Set<String> dnis` (`HashSet`):** Lo usamos para guardar los DNI sin que se repitan. Si alguien intenta registrar un DNI que ya existe, el sistema lo frena al instante.
 * **`Map<String, Paciente> pacientes` (`HashMap`):** Nos sirve para buscar rápido a un paciente usando su DNI como clave.
-* **`Deque<Turno> turnosNormales` (`ArrayDeque`):** Funciona como una fila común (el primero que llega es el primero que se atiende).
+* **`Queue<Turno> turnosNormales` (`ArrayDeque`):** Funciona como una fila común (el primero que llega es el primero que se atiende).
 * **`PriorityQueue<Turno> turnosUrgentes`:** Ordena las urgencias solas según la gravedad. Si dos tienen la misma gravedad, pasa primero el que tiene menor número de `orden` (el que llegó antes).
 * **`Stack<Runnable> historial`:** Funciona como una pila para el botón "deshacer". Guarda lo contrario a la última acción realizada para poder volver atrás si hay un error.
