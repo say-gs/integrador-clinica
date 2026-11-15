@@ -70,6 +70,18 @@
 - Quién hizo qué: Santiago se encargó de programar la interfaz de consola en Main.java, validar el ingreso de datos por teclado (números, rangos de edad, prioridades y textos vacíos) y probar el flujo completo del sistema.
   
 - Qué nos trabó: Asegurar que el programa no se detenga ante el ingreso de letras o valores fuera de rango en las opciones numéricas del menú.
+
+  ## Día 7 (15/11/2026)
+
+- **Qué hicimos:** Finalizamos la documentación del proyecto Clínica San Bernardito, actualizamos el diagrama UML y el README, revisamos los diez casos de prueba y organizamos la presentación final. Dimos por completado el ensayo grupal y cerramos todas las tareas del tablero Trello.
+
+- **Quién hizo qué:** Verónica actualizó el diagrama UML y las instrucciones del README, revisó las pruebas y organizó la distribución de responsabilidades para la exposición. Santiago quedó a cargo de la introducción, el menú de consola y las urgencias con PriorityQueue. Bautista quedó a cargo de la arquitectura, el registro de pacientes con HashSet y la función deshacer con Stack. Verónica quedó a cargo de los turnos normales con Queue, las pruebas y la documentación.
+
+- **Qué nos trabó:** Fue necesario revisar la documentación para asegurar que el diagrama UML coincidiera con las clases reales del programa y que las instrucciones de ejecución fueran claras.
+
+- **Qué sigue:** Realizar la presentación final del proyecto mediante Zoom y responder las preguntas de la docente.
+
+- **Captura del tablero:** ![Tablero Kanban - Día 7](kanban/dia-7.png)
   
 - Qué sigue: Ejecutar las pruebas funcionales finales de punta a punta, corregir cualquier falla menor y preparar la documentación definitiva junto con la demostración del proyecto.
   
