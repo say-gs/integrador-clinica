@@ -70,8 +70,12 @@
 - Quién hizo qué: Santiago se encargó de programar la interfaz de consola en Main.java, validar el ingreso de datos por teclado (números, rangos de edad, prioridades y textos vacíos) y probar el flujo completo del sistema.
   
 - Qué nos trabó: Asegurar que el programa no se detenga ante el ingreso de letras o valores fuera de rango en las opciones numéricas del menú.
+  
+- Qué sigue: Ejecutar las pruebas funcionales finales de punta a punta, corregir cualquier falla menor y preparar la documentación definitiva junto con la demostración del proyecto.
+  
+- Captura del tablero: <img width="1572" height="853" alt="image" src="https://github.com/user-attachments/assets/99bd350f-655b-487a-84a4-7f9319e05f99" />
 
-  ## Día 7 (15/11/2026)
+ ## Día 7 (15/11/2026)
 
 - **Qué hicimos:** Finalizamos la documentación del proyecto Clínica San Bernardito, actualizamos el diagrama UML y el README, revisamos los diez casos de prueba y organizamos la presentación final. Dimos por completado el ensayo grupal y cerramos todas las tareas del tablero Trello.
 
@@ -82,8 +86,3 @@
 - **Qué sigue:** Realizar la presentación final del proyecto mediante Zoom y responder las preguntas de la docente.
 
 - **Captura del tablero:** ![Tablero Kanban - Día 7](kanban/dia-7.png)
-  
-- Qué sigue: Ejecutar las pruebas funcionales finales de punta a punta, corregir cualquier falla menor y preparar la documentación definitiva junto con la demostración del proyecto.
-  
-- Captura del tablero: <img width="1572" height="853" alt="image" src="https://github.com/user-attachments/assets/99bd350f-655b-487a-84a4-7f9319e05f99" />
-
